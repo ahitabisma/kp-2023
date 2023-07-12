@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Neuropolitical";
+  src: url("../font/neuropolitical.ttf") format("truetype");
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Head */
+.head {
+  min-height: max-content;
+  max-width: 100%;
+  background-color: #2f2e41;
+  color: white;
+}
+
+.goweb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.goweb p {
+  font-family: "Neuropolitical", sans-serif;
+  color: #2a86b2;
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+.goweb span {
+  color: white;
+}
+
+.goweb img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.2rem;
+}
+
+.head .title {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 0 10%;
+  color: white;
+  font-weight: bold;
+}
+
+.head .title a {
+  color: white;
+}
+
+.head .title a:visited {
+  color: inherit;
+}
+
+.head .title p {
+  margin-left: 0.8rem;
+}
+
+.profile {
+  display: flex;
+  background-color: #3b46f1;
+  color: white;
+  max-width: 80%;
+  margin: 0 10%;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transform: translateY(1.5rem);
+}
+
+.profile img {
+  margin-right: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 99px;
+}
+
+.profile .isi table {
+  font-size: 0.6rem;
+}
+
+.profile .isi .item {
+  height: 0.8rem;
+}
+
+.profile .isi .item td:first-child {
+  width: 5rem;
+  margin-top: 1rem;
+}
+.profile .isi .item td:nth-child(2) {
+  width: 0.5rem;
+}
+
+/* Body / Content */
+.body {
+  max-width: 90%;
+  padding: 1rem 5%;
+  margin: 2.5rem 0 0 0;
+  background-color: white;
+}
+
+.body .title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+
+.body .item {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  /* width: 90%; */
+  margin: 1rem auto 0 auto;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.body .item p {
+  margin: 0.1rem 0;
+}
+
+.item p:nth-child(2) {
+  font-weight: bold;
+}
+
+.item .semester {
+  display: flex;
+  justify-content: space-between;
+}
+.item .tahun {
+  display: flex;
+  justify-content: space-between;
+}
+.item .status {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item .status p:nth-child(2) {
+  font-weight: bold;
+}
+
+/* Unactive */
+.item .status .unactive {
+  color: #e1787d;
+}
+/*  */
+
+.item .isi-krs {
+  display: flex;
+  justify-content: space-between;
+}
+.item .btn {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.item .btn a {
+  text-decoration: none;
+}
+.item .btn a:visited {
+  color: inherit;
+}
+
+.item .btn .krs-khs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 0.8rem;
+  min-width: 100%;
+  grid-column: span 2 / span 2;
+}
+
+.item .btn .krs-khs a:first-child {
+  background-color: #1979bd;
+  padding: 2% 0;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn .krs-khs a:first-child:hover {
+  background-color: #3086c4;
+}
+
+.item .btn .krs-khs a:nth-child(2) {
+  font-size: 0.8rem;
+  border: 1px solid #1979bd;
+  background-color: white;
+  padding: 2% 0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #1979bd;
+  text-align: center;
+}
+
+.item .btn .krs-khs a:last-child:hover {
+  background-color: #e8f2f8;
+}
+
+.item .btn .cetak {
+  align-items: center;
+  font-weight: bold;
+  text-align: right;
+  font-size: 0.6rem;
+  color: #1979bd;
+}
+.item .btn .cetak:hover {
+  color: #1979de;
+}
+
+.body .footer {
+  padding: 0.5rem 1rem 1rem 1rem;
+  color: gray;
+  font-size: 0.6rem;
+  text-align: justify;
+}
+
+/* Tablet */
+@media (min-width: 760px) {
+  .head .title {
+    font-size: 1.2rem;
+  }
+
+  .profile img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.5rem;
+  }
+
+  .profile .isi table {
+    font-size: 1rem;
+  }
+  .profile .isi .item {
+    height: 1.3rem;
+  }
+
+  .profile .isi .item td:first-child {
+    width: 4rem;
+  }
+  .profile .isi .item td:nth-child(2) {
+    display: flex;
+    width: 3rem;
+    justify-content: center;
+  }
+
+  .body .title {
+    font-size: 1.2rem;
+  }
+
+  .body .item {
+    font-size: 1rem;
+  }
+
+  .item .btn .krs-khs {
+    column-gap: 0;
+    justify-content: flex-start;
+  }
+
+  .item .btn .krs-khs a:first-child {
+    font-size: 1rem;
+    width: 50%;
+  }
+  .item .btn .krs-khs a:nth-child(2) {
+    font-size: 1rem;
+    width: 50%;
+    margin-left: -45%;
+  }
+
+  .item .btn .cetak {
+    font-size: 0.8rem;
+  }
+}

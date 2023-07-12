@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "Neuropolitical";
+  src: url("../font/neuropolitical.ttf") format("truetype");
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Head */
+.head {
+  min-height: max-content;
+  max-width: 100%;
+  background-color: #2f2e41;
+  color: white;
+}
+
+.goweb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.goweb p {
+  font-family: "Neuropolitical", sans-serif;
+  color: #2a86b2;
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+.goweb span {
+  color: white;
+}
+
+.goweb img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.2rem;
+}
+
+.head .title {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 0 10%;
+  color: white;
+  font-weight: bold;
+}
+
+.head .title a {
+  color: white;
+}
+
+.head .title a:visited {
+  color: inherit;
+}
+
+.head .title p {
+  margin-left: 0.8rem;
+}
+
+.profile {
+  display: flex;
+  background-color: #3b46f1;
+  color: white;
+  max-width: 80%;
+  margin: 0 10%;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transform: translateY(2rem);
+}
+
+.profile img {
+  margin-right: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 99px;
+}
+
+.profile .isi table {
+  font-size: 0.6rem;
+}
+
+.profile .isi .item {
+  height: 0.8rem;
+}
+
+.profile .isi .item td:first-child {
+  width: 5rem;
+  margin-top: 1rem;
+}
+.profile .isi .item td:nth-child(2) {
+  width: 0.5rem;
+}
+/*  */
+
+/* Body / Content */
+.body {
+  max-width: 80%;
+  min-height: max-content;
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 10%;
+}
+
+.body a:first-child {
+  text-align: center;
+  width: 5.5rem;
+  padding: 0.2rem 0;
+  text-decoration: none;
+  color: #1979bd !important;
+  border: 1px solid #1979bd;
+  border-radius: 7px;
+  font-size: 0.8rem;
+}
+.body a:first-child:visited {
+  color: inherit;
+}
+
+.body a:first-child:hover {
+  background-color: #e8f2f8;
+}
+
+.body .ket {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #888888;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.body .item {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 0.8rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.body .item .list {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
+.body .item .garis {
+  margin: 0.5rem 0;
+  background-color: #efebeb;
+  width: 100%;
+  height: 1px;
+}
+
+.body .item .list.dua {
+  display: grid;
+  grid-template-columns: 30% 40% auto;
+}
+
+.body .item .list.dua .separate {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.body .item .list .matkul p:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.body .item .list .matkul p:last-child {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: #888888;
+}
+
+/* Checkbox */
+.body .item .list .check {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+/*  */
+
+.body .item .list.dua {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+.body .item .list .dosen {
+  font-size: 0.8rem;
+  color: #888888;
+  margin-bottom: 0.5rem;
+}
+
+.body .item .list .ruang {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+.body .item .list .hari {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+.body .item .list .approved {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .head .title {
+    font-size: 1.2rem;
+  }
+
+  .profile img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.5rem;
+  }
+
+  .profile .isi table {
+    font-size: 1rem;
+  }
+  .profile .isi .item {
+    height: 1.3rem;
+  }
+
+  .profile .isi .item td:first-child {
+    min-width: 10rem;
+  }
+  .profile .isi .item td:nth-child(2) {
+    display: flex;
+    width: 2rem;
+    justify-content: center;
+  }
+
+  .profile .isi .item td:first-child {
+    min-width: 10rem;
+  }
+  .profile .isi .item td:nth-child(2) {
+    display: flex;
+    width: 2rem;
+    justify-content: center;
+  }
+
+  .body {
+    margin-top: 3rem;
+  }
+
+  .body a:first-child {
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    width: 8rem;
+  }
+
+  .body .ket {
+    font-size: 1rem;
+  }
+
+  .body .item .list .matkul p:first-child {
+    font-size: 1.2rem;
+  }
+  .body .item .list .matkul p:last-child {
+    font-size: 1rem;
+  }
+
+  .body .item .list.dua {
+    font-size: 1rem;
+    color: #888888;
+  }
+
+  .body .item .list {
+    display: grid;
+    grid-template-columns: 80% auto;
+  }
+
+  .body .item .list.dua {
+    display: grid;
+    grid-template-columns: 40% 40% auto;
+  }
+
+  .body .item .list .dosen {
+    font-size: 1rem;
+    color: #888888;
+    margin-bottom: 0.5rem;
+  }
+
+  .body .item .list .ruang {
+    font-size: 1rem;
+    color: #888888;
+  }
+
+  .body .item .list .hari {
+    font-size: 1rem;
+    color: #888888;
+  }
+
+  .body .item .list .approved {
+    font-size: 1rem;
+    color: #888888;
+  }
+}

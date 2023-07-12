@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Neuropolitical";
+  src: url("../font/neuropolitical.ttf") format("truetype");
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  max-width: 100vw;
+  min-height: max-content;
+  padding-bottom: 18%;
+  background-color: #efebeb;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.head {
+  min-height: max-content;
+  width: 100%;
+}
+
+.goweb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.goweb p {
+  font-family: "Neuropolitical", sans-serif;
+  color: #2a86b2;
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+.goweb span {
+  color: white;
+}
+
+.goweb img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.2rem;
+}
+
+.header {
+  background-color: #2f2e41;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.header .title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 0.6rem 0 1rem 0;
+}
+
+.header-isi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.identitas {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.identitas p {
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.semester {
+  font-size: 0.7rem;
+  background-color: #ecf7ff;
+  color: #247fc0;
+  font-weight: bold;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+}
+
+/* Body / Content */
+.body {
+  flex: 1;
+}
+
+.kelola-akun .judul {
+  color: #7e7e7e;
+  font-size: 1.1rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.kelola-akun .isi {
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;
+}
+
+.kelola-akun .isi .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+.kelola-akun .isi .item:visited {
+  color: inherit;
+}
+
+.kelola-akun .isi .item .desc {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}
+
+.garis {
+  background-color: #f4f2f2;
+  height: 2px;
+  width: 100%;
+}
+
+.fa-chevron-right {
+  color: #b2b2b2;
+}
+
+.lainnya .judul {
+  color: #7e7e7e;
+  font-size: 1.1rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.lainnya .isi {
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;
+}
+
+.lainnya .isi .item {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+.lainnya .isi .item:visited {
+  color: inherit;
+}
+
+.lainnya .isi .item .versi {
+  font-weight: bold;
+}
+
+.logout {
+  display: flex;
+  margin: 2rem 0;
+  padding: 1.2rem 2rem 1.2rem 2rem;
+  background-color: white;
+  column-gap: 0.8rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.logout:visited {
+  color: inherit;
+}
+
+/* Bar */
+.bar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+}
+
+.bar .item {
+  width: 25%;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  color: #6b7280;
+}
+
+.bar .item p {
+  margin-top: 5%;
+}
+
+.bar .item.empat {
+  margin-left: -1rem;
+}
+
+.bar a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.bar .item:hover {
+  color: #1979bd;
+}
+
+.bar .item a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .header .title {
+    font-size: 1.7rem;
+  }
+
+  .identitas {
+    font-size: 1rem;
+  }
+
+  .semester {
+    font-size: 1rem;
+  }
+
+  .kelola-akun .judul {
+    font-size: 1.2rem;
+  }
+
+  .kelola-akun .isi .item {
+    font-size: 1rem;
+  }
+
+  .lainnya .judul {
+    font-size: 1.2rem;
+  }
+
+  .lainnya .isi .item {
+    font-size: 1.1rem;
+  }
+
+  .logout {
+    font-size: 1.1rem;
+  }
+}
