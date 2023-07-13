@@ -199,7 +199,8 @@ body {
 }
 
 .bar a {
-  font-size: 0.8rem;
+  color: #6b7280;
+  font-size: 0.7rem;
   text-decoration: none;
 }
 
@@ -243,6 +244,10 @@ body {
   }
 
   .logout {
+    font-size: 1.1rem;
+  }
+
+  .bar a {
     font-size: 1.1rem;
   }
 }
