@@ -1,0 +1,155 @@
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  padding: 1rem;
+  margin: 1rem;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.header {
+  padding-top: 2rem;
+}
+
+.header img {
+  width: 20%;
+  padding-top: 5%;
+  margin-left: -5%;
+}
+
+.content .title {
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.form {
+  padding-top: 1rem;
+}
+label {
+  font-weight: 500;
+  font-size: small;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px solid;
+  width: 90%;
+  display: inline-block;
+  font-size: small;
+  background-color: rgba (249, 250, 251, 255);
+  margin-bottom: 1%;
+}
+
+input [type="text"],
+input[type="password"] :focus {
+  border-color: black;
+  border: 2px solid;
+}
+input[type="submit"] {
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0px solid;
+  width: 93%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  align-content: center;
+  display: block;
+}
+input[type="submit"]:hover {
+  background-color: gray;
+}
+.form div {
+  font-size: small;
+  font-weight: 500;
+  padding-bottom: 1%;
+}
+
+.form a {
+  text-decoration: none;
+}
+.form p {
+  color: black;
+  text-decoration: none;
+  font-size: small;
+  text-align: right;
+  padding-right: 6%;
+  font-weight: 500;
+}
+
+.made {
+  padding-top: 1.5rem;
+}
+.made p {
+  font-size: small;
+  font-weight: 500;
+}
+.unu {
+  display: flex;
+}
+.unu .teks {
+  font-size: small;
+  font-weight: 500;
+  padding-left: 3%;
+}
+.unu img {
+  width: 15%;
+  height: 15%;
+  border-radius: 10px;
+}
+
+.footer {
+  padding-top: 3.5rem;
+}
+.footer p {
+  font-size: small;
+  color: rgb(43, 161, 208);
+}
+
+/* Alert Success */
+.modal {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  margin-top: 45%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-height: 100%;
+}
+
+.alert.success {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  font-size: 0.8rem;
+  color: #4fcc9d;
+  background-color: #f3faf7;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Alert Failed */
+.alert.failed {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: #df6f75;
+  background-color: #fdf2f2;
+  text-align: center;
+  border-radius: 10px;
+}
+.alert.failed p:first-child {
+  font-weight: bold;
+}
