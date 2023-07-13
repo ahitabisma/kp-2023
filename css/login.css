@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.container h2 {
+    margin: 0 0 30px 0;
+}
+
+.container .forget-pw,
+a {
+    text-decoration: none;
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 111, 207);
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.made {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.container-made {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.made .wm-unu {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.made .wm-unu img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.made .wm-goweb {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.made .wm-goweb p {
+    font-size: 12px;
+}
+
+.made .wm-goweb img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

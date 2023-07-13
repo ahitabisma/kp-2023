@@ -218,8 +218,13 @@ body {
   font-size: 0.6rem;
   color: #1979bd;
 }
+
+.item .btn .cetak:visited {
+  color: #1979bd;
+}
+
 .item .btn .cetak:hover {
-  color: #1979de;
+  text-decoration: underline;
 }
 
 .body .footer {
