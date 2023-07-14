@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../css/login.css" />
+    <link rel="stylesheet" href="../../css/loader.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -13,6 +14,13 @@
     <title>Login</title>
   </head>
   <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader">
+        <span class="loader-page"></span>
+      </div>
+    </div>
+
     <div class="container">
       <h2>Hi, Welcome Back</h2>
       <form action="#">
@@ -24,7 +32,7 @@
 
         <input type="submit" value="Login" />
       </form>
-      <div class="forget-pw"><a href="#">Forgot Password</a></div>
+      <div class="forget-pw"><a href="../Dashboard/no-payment.html">Forgot Password</a></div>
     </div>
 
     <div class="made">
@@ -40,5 +48,7 @@
         </div>
       </div>
     </div>
+
+    <script src="../../script/script.js"></script>
   </body>
 </html>

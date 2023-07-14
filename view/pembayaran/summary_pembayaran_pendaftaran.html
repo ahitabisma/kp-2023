@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/summary_pembayaran_pendaftaran.css">
-    
+    <link rel="stylesheet" href="../../css/loader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Data Summary Pembayaran Pendaftaran</title>
 </head>
 <body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader">
+          <span class="loader-page"></span>
+        </div>
+      </div>
+
     <div class="modal-container" id="modalContainer">
         <div class="modal" id="modal">
             <h4>Panduan cara membayar bisa dibaca di bawah ini.</h4><br>
@@ -152,11 +159,11 @@
                     </div>
                 </div>
             </div>
-            <button>Batalkan Pembayaran</button>
+            <button onclick="window.location.href='./review_pembayaran.html'">Batalkan Pembayaran</button>
         </div>
 
-        <script src="../../script/script.js">
-        </script>
+        <script src="../../script/modal.js"></script>
+        <script src="../../script/script.js"></script>
 </body>
 
 </html>
