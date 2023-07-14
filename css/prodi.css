@@ -62,21 +62,21 @@ body {
   background-color: #ecf7ff;
 }
 .fa-user {
-  color: #1979bd;
+  color: #797979;
   border-radius: 99px;
   padding: 1rem;
-  background-color: #ecf7ff;
+  background-color: #f3f4f6;
 }
 
 .fa-user.active {
   color: #1979bd;
-  background-color: #f3f4f6;
+  background-color: #ecf7ff;
 }
 .fa-location-dot {
-  color: #1979bd;
+  color: #797979;
   border-radius: 99px;
   padding: 1rem;
-  background-color: #ecf7ff;
+  background-color: #f3f4f6;
 }
 .fa-location-dot.active {
   color: #1979bd;
@@ -84,20 +84,20 @@ body {
 }
 
 .fa-user-group {
-  color: #1979bd;
+  color: #797979;
   border-radius: 99px;
   padding: 1rem;
-  background-color: #ecf7ff;
+  background-color: #f3f4f6;
 }
 .fa-user-group.active {
   color: #1979bd;
   background-color: #ecf7ff;
 }
 .fa-file {
-  color: #1979bd;
+  color: #797979;
   border-radius: 99px;
   padding: 1rem;
-  background-color: #ecf7ff;
+  background-color: #f3f4f6;
 }
 .fa-file.active {
   color: #1979bd;

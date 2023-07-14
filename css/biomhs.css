@@ -51,15 +51,15 @@ body {
   background-color: #ecf7ff;
 }
 .fa-user {
-  color: #1979bd;
+  color: #797979;
   border-radius: 99px;
   padding: 1rem;
-  background-color: #ecf7ff;
+  background-color: #f3f4f6;
 }
 
 .fa-user.active {
   color: #1979bd;
-  background-color: #f3f4f6;
+  background-color: #ecf7ff;
 }
 .fa-location-dot {
   color: #797979;
