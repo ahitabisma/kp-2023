@@ -50,10 +50,10 @@ input[type="password"] {
   margin-bottom: 0.5rem;
 }
 
-input [type="text"],
 input[type="password"] :focus {
+  outline: none;
   border-color: black;
-  border: 2px solid;
+  border: 10px solid;
 }
 input[type="submit"] {
   margin-top: 5%;

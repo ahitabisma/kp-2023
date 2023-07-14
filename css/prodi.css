@@ -150,10 +150,13 @@ select {
   box-sizing: border-box;
 }
 select:focus {
-  border-color: skyblue;
+  outline: none;
+  border: 2px solid #1979bd;
 }
+
 input:focus {
-  border-color: skyblue;
+  outline: none;
+  border: 2px solid #1979bd;
 }
 
 /* footer */

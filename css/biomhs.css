@@ -127,18 +127,21 @@ select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid;
+  border: 1px solid rgba(238, 234, 234, 255);
   border-radius: 10px;
   background-color: rgba(249, 250, 251, 255);
-  border-color: rgba(238, 234, 234, 255);
   box-sizing: border-box;
 }
 select:focus {
-  border-color: skyblue;
+  outline: none;
+  border: 2px solid #1979bd;
 }
+
 input:focus {
-  border-color: skyblue;
+  outline: none;
+  border: 2px solid #1979bd;
 }
+
 /* footer */
 .footer {
   padding: 2rem;
