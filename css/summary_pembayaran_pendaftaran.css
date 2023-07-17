@@ -121,7 +121,7 @@ body {
     margin: 10px 0;
 }
 
-.content-box {
+.data-pembayaran .content-box {
     border: 0.5px solid rgb(215, 215, 215);
     border-radius: 10px;
     padding: 10px;
@@ -129,8 +129,8 @@ body {
     line-height: 1.5;
 }
 
-.content-box p {
-    font-size: 11px;
+.data-pembayaran .content-box p {
+    font-size: 12px;
 }
 
 .data-pembayaran .content-box .atas {
@@ -172,7 +172,7 @@ body {
     flex-direction: column;
 }
 
-.content-box {
+.detail-pembayaran .content-box {
     border: 0.5px solid rgb(215, 215, 215);
     border-radius: 10px;
     padding: 10px;
@@ -180,8 +180,8 @@ body {
     line-height: 1.5;
 }
 
-.content-box p {
-    font-size: 11px;
+.detail-pembayaran .content-box p {
+    font-size: 12px;
 }
 
 .detail-pembayaran .content-box .atas {
@@ -231,4 +231,37 @@ body {
     font-size: 12px;
     border: none;
     cursor: pointer;
+}
+
+/* Responsive Tablet */
+
+@media(min-width:768px){
+
+    .header .header-profile {
+        font-size: 14px;
+    }
+
+    .header .header-profile .item p:first-child {
+        min-width: 7rem;
+    }
+    
+    .header .header-profile .item p:nth-child(2) {
+        min-width: 3rem;
+    }
+    
+    .header .header-profile .item p:last-child {
+        min-width: 4rem;
+    }
+
+    .peringatan-item {
+        font-size: 13px;
+    }
+
+    .data-pembayaran .content-box p{
+        font-size: 15px;
+    }
+
+    .detail-pembayaran .content-box p {
+        font-size: 15px;
+    }
 }

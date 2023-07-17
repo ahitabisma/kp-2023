@@ -18,12 +18,19 @@ body {
 }
 
 .top-item {
-    font-size: 14px;
-    padding: 20px 20px;
     display: flex;
+    width: 85%;
     align-items: center;
-    justify-content: space-between;
-    width: 45%;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.top-item h5 {
+    margin: auto;
 }
 
 .content {
@@ -119,4 +126,20 @@ body {
     padding: 10px 0px;
     align-items: center;
     font-size: 12px;
+}
+
+/* Responsive Tablet */
+
+@media(min-width:768px) {
+    .content .ulasan .ulasan-item .atas {
+
+        font-size: 15px;
+
+    }
+
+    .content .ulasan .ulasan-item .bawah {
+        font-size: 15px;
+
+    }
+
 }

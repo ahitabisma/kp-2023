@@ -212,3 +212,63 @@ body {
     color: rgb(0, 111, 207);
     padding: 5px 10px;
 }
+
+/* Responsive Tablet */
+
+@media(min-width:768px) {
+    .header .header-profile {
+
+        font-size: 14px;
+    }
+
+
+    .header .header-profile .item p:first-child {
+        min-width: 7rem;
+    }
+
+    .header .header-profile .item p:nth-child(2) {
+        min-width: 3rem;
+    }
+
+    .header .header-profile .item p:last-child {
+        min-width: 4rem;
+    }
+
+    .peringatan-item {
+        font-size: 14px;
+    }
+
+    .list-pembayaran .content-box p {
+        font-size: 15px;
+    }
+
+    .list-pembayaran .content-box .bawah .value a:last-child {
+        font-size: 15px;
+    }
+
+    .list-pembayaran .content-box .bawah .value a:first-child {
+
+        font-size: 15px;
+    }
+
+
+
+    .history-pembayaran .content-box p {
+        font-size: 15px;
+    }
+
+
+
+
+    .history-pembayaran .content-box .bawah .value a:last-child {
+
+        font-size: 15px;
+
+    }
+
+    .history-pembayaran .content-box .bawah .value a:first-child {
+
+        font-size: 15px;
+
+    }
+}

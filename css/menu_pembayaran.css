@@ -58,6 +58,7 @@ body {
   border-bottom: 0.5px solid rgb(215, 215, 215);
   margin: 8px 0;
 }
+
 .isi-content-item-atas .item-keterangan {
   color: #b7b7b7;
 }
@@ -152,7 +153,7 @@ body {
 
 .history {
   background-color: white;
-  padding: 20px 5px;
+  padding: 20px 0;
   box-sizing: border-box;
   margin: 10px auto;
 }
@@ -164,7 +165,7 @@ body {
 }
 
 .history .content-history {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -270,4 +271,46 @@ body {
 
 .bar .item.active-bar {
   color: #1979bd;
+}
+
+/* Responsive Tablet */
+
+@media (min-width:768px) {
+  .isi-content-item-bawah {
+    font-size: 15px;
+
+  }
+
+  .isi-content-item-atas {
+
+    font-size: 15px;
+
+  }
+
+  .isi-content-atas {
+    font-size: 15px;
+
+  }
+
+  .isi-content-bawah {
+    font-size: 15px;
+
+  }
+
+  .history .content-history .history-item .history-item-atas .detail {
+    font-size: 15px;
+  }
+
+  .history .content-history .history-item .history-item-atas .detail-value {
+    font-size: 15px;
+  }
+
+  .history .content-history .history-item .history-item-bawah .total {
+    font-size: 15px;
+    ;
+  }
+
+  .history .content-history .history-item .history-item-bawah .total-value {
+    font-size: 15px;
+  }
 }
