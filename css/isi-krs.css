@@ -262,6 +262,47 @@ input[type="checkbox"]:disabled + span:before {
   color: #888888;
 }
 
+/* Bottom Bar */
+.bar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+}
+
+.bar .item {
+  width: 25%;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  color: #6b7280;
+}
+
+.bar .item p {
+  margin-top: 5%;
+  font-weight: normal;
+}
+
+.bar .item.empat {
+  margin-left: -1rem;
+}
+
+.bar a {
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.bar .item:hover {
+  color: #1979bd;
+}
+
+.bar .item a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .head .title {
