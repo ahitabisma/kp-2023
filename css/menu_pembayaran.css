@@ -8,6 +8,8 @@ body {
   background-color: #ececec;
 }
 
+
+
 .header {
   background-color: rgb(0, 6, 52);
   padding: 20px;
@@ -248,7 +250,7 @@ body {
 }
 
 .bar .item p {
-  margin-top: 5%;
+  margin-top: 10px;
 }
 
 .bar .item.empat {
