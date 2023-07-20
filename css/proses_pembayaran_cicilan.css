@@ -1,274 +1,262 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Helvetica", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
 }
 
 body {
-    background-color: #ececec;
+  background-color: #f5f4f4;
 }
 
 .header {
-    width: 100%;
-    background-color: rgb(0, 0, 51);
+  width: 100%;
+  background-color: #2f2e41;
 }
 
 .header .header-nav {
-    display: flex;
-    width: 85%;
-    align-items: center;
-    padding: 10px;
-    font-weight: bold;
-    color: white;
-    font-size: 14px;
-    box-sizing: border-box;
-    margin: auto;
+  display: flex;
+  width: 85%;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 .header .header-nav p {
-    margin: auto;
+  margin: auto;
 }
 
 .header .header-profile {
-    color: white;
-    display: flex;
-    font-size: 10px;
-    line-height: 1.5;
-    justify-content: center;
-    padding: 15px;
-    box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 .header .header-profile .item {
-    display: flex;
+  display: flex;
 }
 
 .header .header-profile .item p:first-child {
-    min-width: 5rem;
+  min-width: 5rem;
 }
 
 .header .header-profile .item p:nth-child(2) {
-    min-width: 1rem;
+  min-width: 1rem;
 }
 
 .header .header-profile .item p:last-child {
-    min-width: 2rem;
+  min-width: 2rem;
 }
 
 .peringatan {
-    background-color: white;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px 20px;
-    margin: 10px 0;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 10px 0;
 }
 
 .peringatan-item {
-    font-size: 11px;
-    background-color: #ff64641d;
-    color: #FF6464;
-    padding: 10px;
-    text-align: justify;
-    border-radius: 10px;
+  font-size: 13px;
+  background-color: #ff64641d;
+  color: #ff6464;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 10px;
 }
 
 .list-pembayaran {
-    background-color: white;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px 20px;
-    margin: 10px 0;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 10px 0;
 }
 
 .content-box {
-    border: 0.5px solid rgb(215, 215, 215);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px 0;
-    line-height: 1.5;
+  border: 0.5px solid rgb(215, 215, 215);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  line-height: 1.5;
 }
 
 .content-box p {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .list-pembayaran .content-box .atas {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
-    padding: 5px 0;
-    border-bottom: 0.5px solid rgb(215, 215, 215);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 0.5px solid rgb(215, 215, 215);
 }
 
 .list-pembayaran .content-box .atas .keterangan {
-    text-align: left;
-    color: #b7b7b7;
+  text-align: left;
+  color: #b7b7b7;
 }
 
 .list-pembayaran .content-box .atas .value {
-    text-align: right;
+  text-align: right;
 }
 
 .list-pembayaran .content-box .bawah {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
 }
 
 .list-pembayaran .content-box .bawah .keterangan {
-    text-align: left;
+  text-align: left;
 }
 
 .list-pembayaran .content-box .bawah .value {
-    text-align: right;
+  text-align: right;
 }
 
 .list-pembayaran .content-box .bawah .value a:last-child {
-    text-decoration: none;
-    font-size: 11px;
-    background-color: rgb(0, 111, 207);
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
+  text-decoration: none;
+  font-size: 11px;
+  background-color: rgb(0, 111, 207);
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
 }
 
 .list-pembayaran .content-box .bawah .value a:first-child {
-    text-decoration: none;
-    font-size: 11px;
-    background-color: white;
-    border-radius: 5px;
-    color: rgb(0, 111, 207);
-    padding: 5px 10px;
+  text-decoration: none;
+  font-size: 11px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(0, 111, 207);
+  padding: 5px 10px;
 }
 
 .history-pembayaran {
-    background-color: white;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px 20px;
-    margin: 10px 0 100px 0;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 10px 0 100px 0;
 }
 
 .content-box {
-    border: 0.5px solid rgb(215, 215, 215);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px 0;
-    line-height: 1.5;
+  border: 0.5px solid rgb(215, 215, 215);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  line-height: 1.5;
 }
 
 .content-box p {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .history-pembayaran .content-box .atas {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
-    padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 0;
 }
 
 .history-pembayaran .content-box .atas .keterangan {
-    text-align: left;
-    color: #b7b7b7;
+  text-align: left;
+  color: #b7b7b7;
 }
 
 .history-pembayaran .content-box .atas .value {
-    text-align: right;
+  text-align: right;
 }
 
 .history-pembayaran .content-box .bawah {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
 }
 
 .history-pembayaran .content-box .bawah .keterangan {
-    text-align: left;
+  text-align: left;
 }
 
 .history-pembayaran .content-box .bawah .value {
-    text-align: right;
+  text-align: right;
 }
 
 .history-pembayaran .content-box .bawah .value a:last-child {
-    text-decoration: none;
-    font-size: 11px;
-    background-color: rgb(0, 111, 207);
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
+  text-decoration: none;
+  font-size: 11px;
+  background-color: rgb(0, 111, 207);
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
 }
 
 .history-pembayaran .content-box .bawah .value a:first-child {
-    text-decoration: none;
-    font-size: 11px;
-    background-color: white;
-    border-radius: 5px;
-    color: rgb(0, 111, 207);
-    padding: 5px 10px;
+  text-decoration: none;
+  font-size: 11px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(0, 111, 207);
+  padding: 5px 10px;
 }
 
 /* Responsive Tablet */
 
-@media(min-width:768px) {
-    .header .header-profile {
+@media (min-width: 768px) {
+  .header .header-profile {
+    font-size: 14px;
+  }
 
-        font-size: 14px;
-    }
+  .header .header-profile .item p:first-child {
+    min-width: 7rem;
+  }
 
+  .header .header-profile .item p:nth-child(2) {
+    min-width: 3rem;
+  }
 
-    .header .header-profile .item p:first-child {
-        min-width: 7rem;
-    }
+  .header .header-profile .item p:last-child {
+    min-width: 4rem;
+  }
 
-    .header .header-profile .item p:nth-child(2) {
-        min-width: 3rem;
-    }
+  .peringatan-item {
+    font-size: 14px;
+  }
 
-    .header .header-profile .item p:last-child {
-        min-width: 4rem;
-    }
+  .list-pembayaran .content-box p {
+    font-size: 15px;
+  }
 
-    .peringatan-item {
-        font-size: 14px;
-    }
+  .list-pembayaran .content-box .bawah .value a:last-child {
+    font-size: 15px;
+  }
 
-    .list-pembayaran .content-box p {
-        font-size: 15px;
-    }
+  .list-pembayaran .content-box .bawah .value a:first-child {
+    font-size: 15px;
+  }
 
-    .list-pembayaran .content-box .bawah .value a:last-child {
-        font-size: 15px;
-    }
+  .history-pembayaran .content-box p {
+    font-size: 15px;
+  }
 
-    .list-pembayaran .content-box .bawah .value a:first-child {
+  .history-pembayaran .content-box .bawah .value a:last-child {
+    font-size: 15px;
+  }
 
-        font-size: 15px;
-    }
-
-
-
-    .history-pembayaran .content-box p {
-        font-size: 15px;
-    }
-
-
-
-
-    .history-pembayaran .content-box .bawah .value a:last-child {
-
-        font-size: 15px;
-
-    }
-
-    .history-pembayaran .content-box .bawah .value a:first-child {
-
-        font-size: 15px;
-
-    }
+  .history-pembayaran .content-box .bawah .value a:first-child {
+    font-size: 15px;
+  }
 }

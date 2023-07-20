@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #ececec;
+  background-color: #f5f4f4;
 }
 
 
 
 .header {
-  background-color: rgb(0, 6, 52);
+  background-color: #2f2e41;
   padding: 20px;
 }
 
@@ -277,26 +277,21 @@ body {
 
 /* Responsive Tablet */
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .isi-content-item-bawah {
     font-size: 15px;
-
   }
 
   .isi-content-item-atas {
-
     font-size: 15px;
-
   }
 
   .isi-content-atas {
     font-size: 15px;
-
   }
 
   .isi-content-bawah {
     font-size: 15px;
-
   }
 
   .history .content-history .history-item .history-item-atas .detail {
@@ -309,7 +304,6 @@ body {
 
   .history .content-history .history-item .history-item-bawah .total {
     font-size: 15px;
-    ;
   }
 
   .history .content-history .history-item .history-item-bawah .total-value {

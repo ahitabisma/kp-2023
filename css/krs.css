@@ -76,6 +76,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   transform: translateY(1.5rem);
+  justify-content: center;
 }
 
 .profile img {
@@ -86,7 +87,7 @@ body {
 }
 
 .profile .isi table {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
 }
 
 .profile .isi .item {
