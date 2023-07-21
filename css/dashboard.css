@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @font-face {
   font-family: "Neuropolitical";
@@ -366,7 +366,7 @@ body {
 .wrapper .carousel {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc(100%/3);
+  grid-auto-columns: calc(100% / 3);
   gap: 16px;
   padding: 15px 20px;
   box-sizing: border-box;
@@ -430,14 +430,57 @@ body {
 }
 
 .card button {
-
   padding: 8px 16px;
-  background-color: #068FFF;
+  background-color: #068fff;
   border: none;
   border-radius: 10px;
   color: white;
   margin: 10px 0;
+}
 
+/* news */
+.news {
+  background-color: white;
+  padding: 3rem;
+  margin-top: ;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-gap: 1rem;
+}
+.content {
+}
+
+.content .title {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-align: justify;
+}
+.content .garis {
+  margin-top: 0.5rem;
+  background-color: rgb(218, 218, 218);
+  padding: 0.1px;
+}
+.content .post-date {
+  margin-top: 1rem;
+  font-size: small;
+}
+.more {
+  text-align: center;
+  background-color: white;
+}
+.more a {
+  text-decoration: none;
+  color: #068fff;
+}
+.more a:hover {
+  color: rgb(101, 7, 101);
+}
+
+@media (min-width: 768px) {
+  .news {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* Bottom Bar */
@@ -553,13 +596,13 @@ body {
 
 /* Rsponsive News Slider */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .wrapper .carousel {
-    grid-auto-columns: calc(100%/2);
+    grid-auto-columns: calc(100% / 2);
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
