@@ -59,6 +59,22 @@ body {
   color: white;
   font-size: 120%;
 }
+.head a {
+  text-decoration: none;
+}
+.head a p {
+  border-radius: 100%;
+  background-color: white;
+  color: #000;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 0.4rem;
+  padding-top: 0.2rem;
+  padding-right: 0.4rem;
+  padding-bottom: 0.2rem;
+  margin-top: -2rem;
+  margin-left: 0.5rem;
+}
 
 .nama {
   display: flex;
