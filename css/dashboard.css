@@ -452,23 +452,12 @@ body {
 }
 .news {
   background-color: white;
-<<<<<<< Updated upstream
   padding: 3rem;
-
-=======
   padding: 1rem;
->>>>>>> Stashed changes
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   grid-gap: 1rem;
 }
-
-<<<<<<< Updated upstream
-
-=======
-.content {
-}
->>>>>>> Stashed changes
 
 .content .title {
   text-decoration: none;
