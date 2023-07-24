@@ -1,145 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #ececec;
-    font-family: "Helvetica", sans-serif;
+  background-color: #ececec;
+  font-family: "Helvetica", sans-serif;
 }
 
 .top {
-
-    width: 100%;
-    color: white;
-    box-sizing: border-box;
-    background-color: rgb(0, 6, 52);
-
+  width: 100%;
+  color: white;
+  box-sizing: border-box;
+  background-color: #2f2e41;
 }
 
 .top-item {
-    display: flex;
-    width: 85%;
-    align-items: center;
-    padding: 10px;
-    font-weight: bold;
-    color: white;
-    font-size: 14px;
-    box-sizing: border-box;
-    margin: auto;
+  display: flex;
+  width: 85%;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 .top-item h5 {
-    margin: auto;
+  margin: auto;
 }
 
 .content {
-
-    background-color: white;
-    margin: 10px 0;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+  background-color: white;
+  margin: 10px 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
-
 
 .content .ulasan .ulasan-item {
-
-    border: 0.5px solid rgb(215, 215, 215);
-    border-radius: 10px;
-    margin: 10px auto;
-    padding: 15px;
+  border: 0.5px solid rgb(215, 215, 215);
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 15px;
 }
-
-
 
 .content .ulasan .ulasan-item .atas {
-    display: flex;
-    font-size: 10px;
-    line-height: 1.5;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 0.5px solid rgb(215, 215, 215);
-    margin: 8px 0;
+  display: flex;
+  font-size: 10px;
+  line-height: 1.5;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(215, 215, 215);
+  margin: 8px 0;
 }
 
-
 .content .ulasan .ulasan-item .atas .keterangan {
-    text-align: left;
-    color: #b7b7b7;
+  text-align: left;
+  color: #b7b7b7;
 }
 
 .content .ulasan .ulasan-item .atas .value {
-    text-align: right;
+  text-align: right;
 }
 
 .content .ulasan .ulasan-item .bawah {
-    display: flex;
-    font-size: 10px;
-    line-height: 1.5;
-    justify-content: space-between;
-    align-items: center;
-    margin: 8px 0;
+  display: flex;
+  font-size: 10px;
+  line-height: 1.5;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
 }
 
 .content .ulasan .ulasan-item .bawah .keterangan {
-    text-align: left;
-    color: #a7a7a7;
+  text-align: left;
+  color: #a7a7a7;
 }
 
 .content .ulasan .ulasan-item .bawah .value {
-    text-align: right;
+  text-align: right;
 }
 
 .content .button {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content .button a {
-
-    background-color: rgb(0, 108, 208);
-    margin: 5px;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0px;
-    align-items: center;
-    font-size: 12px;
-    border: none;
+  background-color: rgb(0, 108, 208);
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  align-items: center;
+  font-size: 12px;
+  border: none;
 }
+/* .content .button a :hover{
+    background-color: gray;
+} */
 
 .content .button a:last-child {
-    background-color: white;
-    margin: 5px 5px 20px 5px;
-    color: rgb(0, 108, 208);
-    text-decoration: none;
-    border: 1px solid rgb(0, 108, 208);
-    border-radius: 10px;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0px;
-    align-items: center;
-    font-size: 12px;
+  background-color: white;
+  margin: 5px 5px 20px 5px;
+  color: rgb(0, 108, 208);
+  text-decoration: none;
+  border: 1px solid rgb(0, 108, 208);
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.content .button a:last-child:hover {
+  background-color: #f3faff;
 }
 
 /* Responsive Tablet */
 
-@media(min-width:768px) {
-    .content .ulasan .ulasan-item .atas {
+@media (min-width: 768px) {
+  .content .ulasan .ulasan-item .atas {
+    font-size: 15px;
+  }
 
-        font-size: 15px;
-
-    }
-
-    .content .ulasan .ulasan-item .bawah {
-        font-size: 15px;
-
-    }
-
+  .content .ulasan .ulasan-item .bawah {
+    font-size: 15px;
+  }
 }

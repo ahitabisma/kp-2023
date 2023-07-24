@@ -76,6 +76,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   transform: translateY(1.5rem);
+  justify-content: center;
 }
 
 .profile img {
@@ -86,7 +87,7 @@ body {
 }
 
 .profile .isi table {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
 }
 
 .profile .isi .item {
@@ -236,43 +237,47 @@ body {
 
 /* Bottom Bar */
 .bar {
-  display: flex;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
   width: 100%;
   justify-content: center;
   position: fixed;
   bottom: 0;
   background-color: white;
   border: 1px solid #e2e2e2;
+  box-sizing: border-box;
 }
 
-.bar .item {
-  width: 25%;
+.bar .item-bar {
+  box-sizing: border-box;
   text-align: center;
-  padding: 1rem 0 1rem 0;
+}
+
+.bar .item-bar p {
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.bar .item-bar a {
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 12px;
+  text-decoration: none;
   color: #6b7280;
 }
 
-.bar .item p {
-  margin-top: 5%;
-  font-weight: normal;
-}
-
-.bar .item.empat {
-  margin-left: -1rem;
-}
-
-.bar a {
-  font-size: 0.7rem;
-  text-decoration: none;
-}
-
-.bar .item:hover {
+.bar .item-bar a:hover {
   color: #1979bd;
 }
 
-.bar .item a:visited {
+.bar .item-bar a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+.bar .item-bar a.active-bar {
+  color: #1979bd;
 }
 
 /* Tablet */

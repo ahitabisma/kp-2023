@@ -218,7 +218,3 @@ table {
     transform: rotate(360deg);
   }
 }
-
-.bar .item.active-bar {
-  color: #1979bd;
-}
