@@ -443,13 +443,13 @@ body {
 .news {
   background-color: white;
   padding: 3rem;
-  margin-top: ;
+
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   grid-gap: 1rem;
 }
 
-.content {}
+
 
 .content .title {
   text-decoration: none;
