@@ -5,13 +5,23 @@
 
 body {
     font-family: "Helvetica", sans-serif;
-    background-color: #FAF0E4;
+    background-color: bisque;
 }
 
 .container {
-    width: 960px;
-    margin: auto;
+    width: 80%;
     background-color: #fff;
+    margin: auto;
+    height: 100%;
+}
+
+.container .header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0 20px;
+    gap: 16px;
 }
 
 .hero {
@@ -25,6 +35,7 @@ body {
 
 .container .main {
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .content {
@@ -34,7 +45,7 @@ body {
 
 .main {
     padding: 20px;
-    width: 600px;
+    width: 70%;
     box-sizing: border-box;
 }
 
@@ -58,34 +69,75 @@ body {
 }
 
 .content .sidebar {
-    width: 300px;
-    margin: 20px 0;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
 }
 
 .content .sidebar img {
-    width: 100px;
-    height: 100px;
-}
-
-.content .sidebar {
-    font-size: 12px;
-    justify-content: start;
+    width: 75px;
+    height: 75px;
 }
 
 .content .sidebar-content {
-    padding: 10px;
+
     display: flex;
     box-sizing: border-box;
-    gap: 10px;
+    align-items: start;
+    gap: 5px;
 }
 
 .footer {
+    left: 0;
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
     background-color: #333;
-    padding: 10px;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+
 }
 
-.footer .copy {
-    text-align: center;
-    color: #eaeaea;
-    font-size: 12px;
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: #fff;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container .header h1 {
+        font-size: 25px;
+    }
+
+    .hero {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0px;
+        height: 200px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .main {
+        width: 100%;
+    }
+
+    .container .content .main h2 {
+        font-size: 20px;
+    }
+
+    .container .content .sidebar {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
