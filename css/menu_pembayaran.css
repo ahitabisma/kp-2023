@@ -123,13 +123,20 @@ body {
   border-bottom: 0.5px solid rgb(215, 215, 215);
 }
 
-.isi-content-atas button {
+.isi-content-atas .ket-atas button {
   border-radius: 5px;
   background-color: white;
   color: rgb(0, 111, 207);
   border: 0.5px solid rgb(0, 111, 207);
   padding: 5px;
   cursor: pointer;
+}
+
+.isi-content-atas .value-atas .copy-link-input {
+  color: #1979bd;
+  border: 1px solid #1979bd;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .isi-content-bawah {
