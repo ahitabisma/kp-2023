@@ -14,8 +14,10 @@ body {
 .header {
   display: flex;
   padding: 1rem 2rem;
-  padding-top: %;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .header a > i {
@@ -104,6 +106,9 @@ body {
   background-color: #ecf7ff;
 }
 /* content */
+.content {
+  margin-top: 3.5rem;
+}
 .infoprodi {
   padding: 1rem 2rem;
   margin-bottom: 2%;

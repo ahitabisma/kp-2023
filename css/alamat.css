@@ -14,8 +14,10 @@ body {
 .header {
   display: flex;
   padding: 1rem 2rem;
-  padding-top: %;
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header a > i {
@@ -28,7 +30,7 @@ body {
 /* Body */
 .body {
   background-color: white;
-  margin-top: 0.5rem;
+  margin-top: 3.5rem;
   padding-top: 1%;
   padding: 1rem;
   padding-right: 1rem;

@@ -14,8 +14,11 @@ body {
 .header {
   display: flex;
   padding: 1rem 2rem;
-  padding-bottom: %;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* border-bottom:0.5rem solid #f5f4f4 ; */
 }
 
 .header a > i {
@@ -26,12 +29,17 @@ body {
   font-weight: bold;
 }
 
+.content {
+  margin-top: 3.5rem;
+}
+
 /* Body */
 .body {
   background-color: white;
   margin-top: 0.5rem;
   padding-top: 1%;
   padding: 1rem;
+  border-bottom: ;
 }
 
 .nav {
@@ -101,7 +109,7 @@ body {
   padding-top: 1rem;
   /* padding: 5px; */
   background-color: #f5f4f4;
-  padding-block-end: ;
+  padding-top: 10rem;
 }
 .datdirmhs {
   padding: 1rem 2rem;

@@ -14,8 +14,10 @@ body {
 .header {
   display: flex;
   padding: 1rem 2rem;
-  padding-top: %;
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header a > i {
@@ -26,6 +28,9 @@ body {
   font-weight: bold;
 }
 
+.content {
+  margin-top: 3.5rem;
+}
 /* Body */
 .body {
   background-color: white;
