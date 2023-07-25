@@ -19,10 +19,6 @@ body {
 }
 
 /* Header */
-.head {
-  min-height: max-content;
-  width: 100%;
-}
 
 .goweb {
   display: flex;
@@ -50,20 +46,57 @@ body {
 
 .header {
   background-color: #2f2e41;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 0 2rem 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.header .title {
+.head-bar {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #2f2e41;
+  position: fixed;
+  padding-left: 2rem;
+}
+
+.header .head-bar .fixed-bar .title {
   color: white;
   font-size: 1.3rem;
   font-weight: normal;
-  margin: 0.6rem 0 1rem 0;
 }
 
-.header-isi {
+.header .head-bar .fixed-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0.5rem 2rem 0.5rem 0;
+}
+
+.header .head-bar .fixed-bar a {
+  text-decoration: none;
+}
+
+.header .head-bar .fixed-bar a p {
+  border-radius: 100%;
+  background-color: rgb(245, 55, 55);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 0.4rem;
+  padding-top: 0.2rem;
+  padding-right: 0.4rem;
+  padding-bottom: 0.2rem;
+  margin-top: -2rem;
+  margin-left: 0.5rem;
+}
+
+.header-isi {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5.5rem;
+  padding-left: 2rem;
 }
 
 .identitas {
@@ -216,7 +249,6 @@ body {
 .bar .item a.active-bar {
   color: #1979bd;
 }
-
 
 /* Tablet */
 @media (min-width: 768px) {
