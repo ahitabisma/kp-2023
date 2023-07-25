@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: "Neuropolitical";
+  src: url("../font/neuropolitical.ttf") format("truetype");
+}
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +16,35 @@ body {
 
 .header {
   background-color: #2f2e41;
-  padding: 20px;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.header .title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 2rem 0.5rem 2rem;
+  color: white;
+  font-size: 120%;
+}
+.header a {
+  text-decoration: none;
+}
+.header a p {
+  border-radius: 100%;
+  background-color: rgb(245, 55, 55);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 0.4rem;
+  padding-top: 0.2rem;
+  padding-right: 0.4rem;
+  padding-bottom: 0.2rem;
+  margin-top: -2rem;
+  margin-left: 0.5rem;
 }
 
 .header h5 {
@@ -24,14 +58,20 @@ body {
   align-items: center;
   color: white;
 }
+.header-tittle p {
+  font-family: "Neuropolitical", sans-serif;
+  font-size: 0.5rem;
+}
 
 .header-tittle img {
-  width: 25px;
-  height: 25px;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.2rem;
 }
 
 .header-tittle span {
   color: rgb(0, 179, 255);
+  font-family: "Neuropolitical", sans-serif;
 }
 
 .content {
@@ -40,6 +80,7 @@ body {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  margin-top: 25%;
 }
 
 .isi-content-item {
