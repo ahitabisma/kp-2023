@@ -471,6 +471,8 @@ body {
 
 /* news */
 .headnews {
+  position: fixed;
+  top: 0;
   display: flex;
   min-height: max-content;
   width: 100%;
@@ -487,6 +489,7 @@ body {
 }
 
 .news {
+  margin-top: 3.5rem;
   background-color: white;
   padding: 3rem;
   padding: 1rem;
