@@ -4,6 +4,7 @@
   font-family: "Neuropolitical";
   src: url("../font/neuropolitical.ttf") format("truetype");
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -24,6 +25,7 @@ body {
 
 .header {
   background-color: #2f2e41;
+  padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -92,6 +94,7 @@ body {
   align-items: center;
   color: white;
 }
+
 .header-tittle p {
   font-family: "Neuropolitical", sans-serif;
   font-size: 0.5rem;
