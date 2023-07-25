@@ -24,13 +24,10 @@ body {
 
 .header {
   background-color: #2f2e41;
-<<<<<<< HEAD
-  padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 2;
   box-sizing: border-box;
-=======
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   position: fixed;
@@ -60,12 +57,10 @@ body {
   padding-bottom: 0.2rem;
   margin-top: -2rem;
   margin-left: 0.5rem;
->>>>>>> d02d2a9074e748d838d65ef0b8fc1c8cbc272e6e
 }
 
 .header h5 {
   color: white;
-
 }
 
 .header .title {
