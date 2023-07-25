@@ -25,7 +25,6 @@ body {
 
 .header {
   background-color: #2f2e41;
-  padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -42,27 +41,11 @@ body {
   justify-content: space-between;
   margin: 0.5rem 2rem 0.5rem 2rem;
   color: white;
-  font-size: 120%;
+  font-size: medium;
+  font-weight: 500;
 }
 .header a {
   text-decoration: none;
-}
-.header a p {
-  border-radius: 100%;
-  background-color: rgb(245, 55, 55);
-  color: #fff;
-  font-size: 13px;
-  text-align: center;
-  padding-left: 0.4rem;
-  padding-top: 0.2rem;
-  padding-right: 0.4rem;
-  padding-bottom: 0.2rem;
-  margin-top: -2rem;
-  margin-left: 0.5rem;
-}
-
-.header h5 {
-  color: white;
 }
 
 .header .title {
@@ -85,7 +68,7 @@ body {
   padding-right: 0.4rem;
   padding-bottom: 0.2rem;
   margin-top: -2rem;
-  margin-left: 0.5rem;
+  margin-left: 0.7rem;
 }
 
 .header-tittle {

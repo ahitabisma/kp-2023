@@ -60,7 +60,8 @@ body {
   justify-content: space-between;
   margin: 0.5rem 2rem 0.5rem 2rem;
   color: white;
-  font-size: 120%;
+  font-size: medium;
+  font-weight: 500;
 }
 
 .head a {
