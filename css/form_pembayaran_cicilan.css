@@ -10,12 +10,12 @@ body {
 
 .header {
   width: 100%;
-  background-color: rgb(0, 0, 51);
+  background-color: #2f2e41;
 }
 
-.header .header-nav {
+.header-nav {
   display: flex;
-  width: 85%;
+  width: 100%;
   align-items: center;
   padding: 10px;
   font-weight: bold;
@@ -23,9 +23,12 @@ body {
   font-size: 14px;
   box-sizing: border-box;
   margin: auto;
+  position: fixed;
+  background-color: #2f2e41;
+  top: 0;
 }
 
-.header .header-nav p {
+.header-nav p {
   margin: auto;
 }
 
@@ -37,6 +40,7 @@ body {
   justify-content: center;
   padding: 15px;
   box-sizing: border-box;
+  margin-top: 2rem;
 }
 
 .header .header-profile .item {
