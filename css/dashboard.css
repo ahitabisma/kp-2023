@@ -59,9 +59,11 @@ body {
   color: white;
   font-size: 120%;
 }
+
 .head a {
   text-decoration: none;
 }
+
 .head a p {
   border-radius: 100%;
   background-color: rgb(245, 55, 55);
@@ -467,9 +469,11 @@ body {
   padding: 1rem;
   font-weight: 600;
 }
+
 .headnews p {
   margin-left: 2rem;
 }
+
 .news {
   background-color: white;
   padding: 3rem;
