@@ -26,6 +26,9 @@ body {
   min-height: max-content;
   width: 100%;
   background-color: #2f2e41;
+  position: fixed;
+  z-index: 2;
+  padding-bottom: 0.5rem;
 }
 
 .goweb {
@@ -74,6 +77,14 @@ body {
   padding-bottom: 0.2rem;
   margin-top: -2rem;
   margin-left: 0.5rem;
+}
+
+.bio {
+  margin-top: 5.5rem;
+  min-height: max-content;
+  width: 100%;
+  background-color: #2f2e41;
+  position: relative;
 }
 
 .nama {
