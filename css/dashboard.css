@@ -371,7 +371,11 @@ body {
 .wrapper i {
   width: 50px;
   height: 50px;
+<<<<<<< HEAD
   z-index: 2;
+=======
+  z-index: 1;
+>>>>>>> d02d2a9074e748d838d65ef0b8fc1c8cbc272e6e
   background-color: #fff;
   line-height: 50px;
   text-align: center;
@@ -558,6 +562,7 @@ body {
   background-color: white;
   border: 1px solid #e2e2e2;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .bar .item {
