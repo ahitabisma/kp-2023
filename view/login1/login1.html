@@ -47,6 +47,7 @@
         </div>
         <div>
           <form action="" name="myForm" onsubmit="return validateForm()">
+            <input type="hidden" name="deviceToken" value="deviceToken" id="deviceToken" />
             <div class="form">
               <div>Username</div>
               <input type="text" name="username" placeholder="input your username..." />
@@ -91,6 +92,11 @@
 
     <script src="../../script/script.js"></script>
     <script>
+      // Device Token
+      var deviceToken = AndroidInterface.getDeviceToken();
+      var deviceTokenElement = document.getElementById("deviceToken");
+      deviceTokenElement.value = deviceToken;
+
       function validateForm() {
         var username = document.forms["myForm"]["username"].value;
         var password = document.forms["myForm"]["password"].value;
