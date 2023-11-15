@@ -50,12 +50,12 @@
             <!-- <input type="text" name="deviceToken" value="deviceToken" id="deviceToken" /> -->
             <div class="form">
               <div>Username</div>
-              <input type="text" name="username" placeholder="input your username..." />
+              <input type="text" name="username" placeholder="Input your username..." />
 
               <div>Password</div>
-              <input type="password" name="password" id="" placeholder="input your password..." />
+              <input type="password" name="password" id="" placeholder="Input your password..." />
               <input type="submit" value="Login" />
-              <a href="../Login-2/index.html">
+              <a href="">
                 <p>Forgot Password</p>
               </a>
             </div>
@@ -109,6 +109,9 @@
           return false;
         } else if (username != "" && password == "") {
           showEmptyAlert();
+          return false;
+        } else if (username != "" && password != "") {
+          window.location.href = "../Dashboard/no-payment.html";
           return false;
         }
       }

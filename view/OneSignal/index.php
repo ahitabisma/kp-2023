@@ -7,6 +7,7 @@ if (isset($_POST['send_notification'])) {
     $deviceTokens = array();
 
     if ($audience === 'all') {
+        // Sesuaikan dengan database
         $data = mysqli_query($connection, "SELECT device_token FROM users");
         if ($data) {
             while ($row = mysqli_fetch_array($data)) {
@@ -14,13 +15,11 @@ if (isset($_POST['send_notification'])) {
 
                 if (!empty($deviceToken)) {
                     $deviceTokens[] = $deviceToken;
-                    // var_dump($deviceTokens);
                 }
             }
         }
     } else {
         $deviceTokens[] = $audience;
-        // var_dump($deviceTokens);
     }
 
     $title = $_POST['title'];
@@ -30,12 +29,12 @@ if (isset($_POST['send_notification'])) {
 
     $response = sendMessage($validDeviceTokens, $title, $message, $sendAfter);
     $sendTime = date("Y-m-d H:i:s", $sendAfter);
-    // var_dump($sendTime);
     $array = json_decode($response, true);
 
 
     if (isset($array['id'])) {
         $notificationID = $array['id'];
+        // Sesuaikan dengan database
         $data = mysqli_query($connection, "INSERT INTO notifications (notification_id, title, message, time) VALUES ('$notificationID', '$title', '$message', '$sendTime')");
         if ($data) {
             echo "Notifikasi berhasil terkirim";

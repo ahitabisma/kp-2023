@@ -33,10 +33,10 @@
         <div>Academic Administration Management</div>
         <div>To Be Neat, Easy, Time and Energy</div>
         <div>Efficient</div>
-        <p>DeviceToken</p>
-        <input type="text" name="deviceToken" value="deviceToken" id="deviceToken" />
-        <p>GPS</p>
-        <p id="location" style="color: white"></p>
+        <!-- <p>DeviceToken</p> -->
+        <!-- <input type="text" name="deviceToken" value="deviceToken" id="deviceToken" /> -->
+        <!-- <p>GPS</p> -->
+        <!-- <p id="location" style="color: white"></p> -->
       </div>
       <div class="btn">
         <div>
@@ -57,37 +57,37 @@
       });
 
       // Device Token
-      var deviceToken = AndroidInterface.getDeviceToken();
-      var deviceTokenElement = document.getElementById("deviceToken");
-      deviceTokenElement.value = deviceToken;
-      var showLocation = document.getElementById("location");
+      // var deviceToken = AndroidInterface.getDeviceToken();
+      // var deviceTokenElement = document.getElementById("deviceToken");
+      // deviceTokenElement.value = deviceToken;
+      // var showLocation = document.getElementById("location");
 
       // Lokasi
-      document.addEventListener("DOMContentLoaded", function () {
-        getLocationConstant();
-        if (document.getElementById("location").innerHTML === "") {
-          document.getElementById("location").innerHTML = "GPS belum diaktifkan";
-        }
-      });
+      // document.addEventListener("DOMContentLoaded", function () {
+      //   getLocationConstant();
+      //   if (document.getElementById("location").innerHTML === "") {
+      //     document.getElementById("location").innerHTML = "GPS belum diaktifkan";
+      //   }
+      // });
 
-      function getLocationConstant() {
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
-        } else {
-          document.getElementById("location").innerHTML = "Perangkat Anda tidak mendukung GPS.";
-        }
-      }
+      // function getLocationConstant() {
+      //   if (navigator.geolocation) {
+      //     navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+      //   } else {
+      //     document.getElementById("location").innerHTML = "Perangkat Anda tidak mendukung GPS.";
+      //   }
+      // }
 
-      function onGeoSuccess(event) {
-        var latitude = event.coords.latitude;
-        var longitude = event.coords.longitude;
-        document.getElementById("location").innerHTML = "Lokasi : " + latitude + ", " + longitude;
-      }
+      // function onGeoSuccess(event) {
+      //   var latitude = event.coords.latitude;
+      //   var longitude = event.coords.longitude;
+      //   document.getElementById("location").innerHTML = "Lokasi : " + latitude + ", " + longitude;
+      // }
 
-      function onGeoError(event) {
-        var errorText = "Terjadi kesalahan: kode " + event.code + ". " + event.message;
-        document.getElementById("location").innerHTML = errorText;
-      }
+      // function onGeoError(event) {
+      //   var errorText = "Terjadi kesalahan: kode " + event.code + ". " + event.message;
+      //   document.getElementById("location").innerHTML = errorText;
+      // }
     </script>
   </body>
 </html>
