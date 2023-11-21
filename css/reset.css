@@ -123,7 +123,7 @@ table {
   border-spacing: 0;
 }
 
-.bar .item a {
+/* .bar .item a {
   display: block;
   width: 100%;
   padding: 14px 0;
@@ -139,7 +139,7 @@ table {
 .bar .item a:visited {
   color: #6b7280;
   text-decoration: none;
-}
+} */
 
 @font-face {
   font-family: "Neuropolitical";
