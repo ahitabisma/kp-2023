@@ -123,6 +123,24 @@ table {
   border-spacing: 0;
 }
 
+.bar .item a {
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 12px;
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.bar .item a:hover {
+  color: #1979bd;
+}
+
+.bar .item a:visited {
+  color: #6b7280;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "Neuropolitical";
   src: url("../font/neuropolitical.ttf") format("truetype");
