@@ -24,6 +24,61 @@
       </div>
     </div>
 
+    <div class="modal-container" id="modalContainer">
+      <div class="modal" id="modal">
+          <h4>Panduan cara membayar bisa dibaca di bawah ini.</h4><br>
+
+          <h5>Perhatian</h5>
+          <p>Mohon selesaikan pembayaran sebelum 07 April 2023 11:24 Asia/Jakarta.
+          Apabila melewati batas waktu, pembayaran Anda akan otomatis dibatalkan.</p><br>
+
+          <h5>Cara pembayaran via ATM BRI</h5>
+          <p>1. Pada menu utama, pilih <b>Transaksi Lain</b></p>
+          <p>2. Pilih <b>Pembayaran</b></p>
+          <p>3. pilih <b>Lainnya</b></p>
+          <p>4. Pilih <b>BRIVA</b></p>
+          <p>5. Masukan Nomor BRIVA <b>423990717273727870377</b> dan pilih Benar</p>
+          <p>6. Jumlah pembayaran, nomor BRIVA dan nama merchant akan muncul
+          pada halaman konfirmasi pembayaran. Jika informasi yang dicantumkan benar, pilih Ya
+          </p>
+          <p>7. Pembayaran telah selesai. Simpan bukti pembayaran Anda.</p><br>
+
+          <h5>Cara pembayaran via Internet Banking BRI</h5>
+          <p>1. Masuk pada Internet Banking BRI</p>
+          <p>2. Pilih menu <b>Pembayaran dan Pembelian</b></p>
+          <p>3. Pilih submenu <b>BRIVA</b></p>
+          <p>4. Masukan Nomor BRIVA <b>439633580904868098</b></p>
+          <p>5. Jumlah pembayaran, nomor BRIVA dan nama merchant akan muncul
+              pada halaman konfirmasi pembayaran. Jika informasi yang dicantumkan benar, pilih Ya
+          </p>
+          <p>6. Masukan <b>password</b> dan <b>mToken</b>, pilih <b>Kirim</b></p>
+          <p>Pembayaran telah selesai. untuk mencetak bukti transaksi pilih <b>Cetak</b></p> <br>
+
+          <h5>Cara pembayaran via BRI Mobile</h5>
+          <p>1. Masuk ke dalam aplikasi <b>BRI Mobile</b>, pilih <b>Mobile Banking BRI</b></p>
+          <p>2. Pilih <b>Pembayaran</b> lalu pilih <b>BRIVA</b></p>
+          <p>3. Masukan Nomor BRIVA <b>423990717273727870377</b> </p>
+          <p>
+              4. Jumlah pembayaran, nomor BRIVA dan nama merchant akan muncul
+              pada halaman konfirmasi pembayaran. Jika informasi yang dicantumkan benar, pilih <b>Continue</b>
+          </p>
+          <p>5. masukan Mobile Banking BRI PIN, pilih <b>OK</b></p>
+          <p>6. Pembayaran telah selesai.SImpan notifikasi sebagai bukti pembayaran.</p><br>
+
+          <h5>Internet Banking Lain</h5>
+          <p>1. Login keInternet Banking Anda</p>
+          <p>2. Pilih menu Transfer ke Bank Lain Online</p>
+          <p>3. Pilih bank tujuan > BRI</p>
+          <p>4. Masukan nomor Virtual Account Anda <b>423990717273727870377</b></p>
+          <p>5. Jika ada pilihan jenis/metode trasnfer, <b>pilih yang REALTIME ONLINE (Biaya Rp. 6.500) 
+          WAJIB PILIH METODE PEMBAYARAN TERSEBUT.</b> Jika tidak maka pembayaran akan <b>GAGAL</b></p>
+          <p>6. Masukan jumlah amount sesuai tagihan <b>(INGAT NOMINAL HARUS SAMA PERSIS SESUAI TAGIHAN DI ATAS)</b></p>
+          <p>7. Ikuti instruksi untuk menyelesaikan transkasi</p><br><br>
+
+
+      </div>
+  </div>
+
     <div class="container">
       <!-- Header -->
       <div class="header">
@@ -65,25 +120,25 @@
               </div>
               <i class="fa-solid fa-chevron-right"></i>
             </a>
-            <div class="garis"></div>
-            <a href="" class="item">
+            <!-- <div class="garis"></div> -->
+            <!-- <a href="" class="item">
               <div class="desc">
                 <i class="fa-solid fa-lock fa-lg"></i>
                 <p>Ubah Password</p>
               </div>
               <i class="fa-solid fa-chevron-right"></i>
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="lainnya">
           <p class="judul">Lainnya</p>
           <div class="isi">
-            <a href="" class="item">
+            <a href="../news/index.html" class="item">
               <p>Artikel Kampus</p>
               <i class="fa-solid fa-chevron-right"></i>
             </a>
             <div class="garis"></div>
-            <a href="" class="item">
+            <a href="#modalContainer" data-target="#modalContainer" id="open" class="item">
               <p>Panduan Pembayaran</p>
               <i class="fa-solid fa-chevron-right"></i>
             </a>
@@ -134,6 +189,7 @@
       </div>
     </div>
 
+    <script src="../../script/modal.js"></script>
     <script src="../../script/script.js"></script>
   </body>
 </html>
